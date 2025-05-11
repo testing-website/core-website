@@ -6,12 +6,10 @@
 
 [[redirects]]
   from = "https://my-docs-splat.netlify.app/*"
-  to = "/docs/:splat"
-  status = 200
-  force = true
+  to = "https://testing-splat.netlify.app/docs/:splat"
+  status = 301
 
 [[redirects]]
   from = "https://my-blog-splat.netlify.app/*"
-  to = "/blog/:splat"
-  status = 200
-  force = true
+  to = "https://testing-splat.netlify.app/blog/:splat"
+  status = 301
