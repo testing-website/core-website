@@ -8,10 +8,10 @@
   from = "/docs/*"
   to = "https://my-docs-splat.netlify.app/:splat"
   status = 200
-  force = false
+  force = true
 
 [[redirects]]
   from = "/blog/*"
   to = "https://my-blog-splat.netlify.app/:splat"
   status = 200
-  force = false
+  force = true
