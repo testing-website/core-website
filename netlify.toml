@@ -5,13 +5,13 @@
   publish = "_build/html"
 
 [[redirects]]
-  from = "/docs/*"
-  to = "https://my-docs-splat.netlify.app/:splat"
+  from = "https://my-docs-splat.netlify.app/*"
+  to = "/docs/:splat"
   status = 200
   force = false
 
 [[redirects]]
-  from = "/blog/*"
-  to = "https://my-blog-splat.netlify.app/:splat"
+  from = "https://my-blog-splat.netlify.app/*"
+  to = "/blog/:splat"
   status = 200
   force = false
