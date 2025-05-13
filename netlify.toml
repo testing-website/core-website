@@ -4,12 +4,12 @@
   environment = { PYTHON_VERSION = "3.13" }
   publish = "_build/html"
 
-[[redirects]]
-  from = "/my-docs-site/*"
-  to = "https://my-docs-splat.netlify.app/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/my-blog-site/*"
-  to = "https://my-blog-splat.netlify.app/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/my-docs-site/*"
+#  to = "https://my-docs-splat.netlify.app/:splat"
+#  status = 200
+#
+#[[redirects]]
+#  from = "/my-blog-site/*"
+#  to = "https://my-blog-splat.netlify.app/:splat"
+#  status = 200
