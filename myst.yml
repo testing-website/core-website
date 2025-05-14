@@ -10,8 +10,8 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: index.md
-    - file: docs.md
-    - file: blog.md
+#    - file: docs.md
+#    - file: blog.md
 site:
   template: book-theme
   # options:
